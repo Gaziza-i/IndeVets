@@ -153,6 +153,11 @@
     color: var(--dark-blue-color);
 }
 
+.item-link:hover {
+  color: #041318;
+  text-decoration: underline;
+}
+
 .header-login {
     width: 75px;
     height: 25px;
@@ -161,6 +166,11 @@
     color: var(--light-color);
     background-color: transparent;
     border: var(--btn-border);
+}
+
+.header-login:hover {
+  color: var(--turquoise-color);
+  background-color: var(--light-color);
 }
 
 .main {
@@ -272,6 +282,10 @@
   text-decoration: none;
   font-size: 20px;
   color: var(--turquoise-color);
+}
+
+.top-card-link:hover {
+  text-decoration: underline;
 }
 
 .title-block {
@@ -414,6 +428,11 @@
   margin-left: 27px;
 }
 
+.mission-button:hover {
+  color: var(--light-color);
+  background-color: var(--turquoise-color);
+}
+
 .lets-do {
   height: 440px;
   width: 100%;
@@ -451,6 +470,10 @@
   color: var(--light-color);
   text-decoration: none;
   max-width: 236px;
+}
+
+.lets-do-link:hover {
+  text-decoration: underline;
 }
 
 .footer {
@@ -494,6 +517,11 @@
   font-size: 14px;
   color: var(--turquoise-color);
   text-decoration: none;
+}
+
+.footer-list-link:hover {
+  color: #074f69;
+  text-decoration: underline;
 }
 
 .footer-hor-list {
